@@ -1,0 +1,28 @@
+{
+  "name": "friendly-atoms",
+  "version": "1.0.0",
+  "filename": "friendly-atoms.min.css",
+  "description": "A friendly-vibes, lightweight, responsive CSS framework",
+  "main": "./dist/friendly-vibes.min.css",
+  "scripts": {
+    "test": "echo \"Testing\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skydavis/friendly-atoms.git"
+  },
+  "keywords": [
+    "css",
+    "framework"
+  ],
+  "author": "Sky Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skydavis/friendly-atoms/issues"
+  },
+  "homepage": "https://github.com/skydavis/friendly-atoms#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
