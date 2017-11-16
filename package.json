@@ -23,6 +23,13 @@
   },
   "homepage": "https://github.com/skydavis/friendly-atoms#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-git": "^2.4.2",
+    "gulp-header": "^1.8.9",
+    "gulp-scss": "^1.4.0",
+    "gulp-size": "^2.1.0"
   }
 }
