@@ -1,0 +1,6 @@
+button {
+  background-color: red;
+  &.outline {
+    border: 2px white solid;
+  }
+}
