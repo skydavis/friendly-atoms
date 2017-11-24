@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  @include breakpoint(xs) {
+    width: 90%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  @include breakpoint(sm) {
+    width: 720px;
+    max-width: 100%;
+  }
+  @include breakpoint(md) {
+    width: 960px;
+    max-width: 100%;
+  }
+  @include breakpoint(lg) {
+    width: 1140px;
+    max-width: 100%;
+  }
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .col {
+      flex: 1 1 0;
+      margin-right: 10px;
+      @media screen and (max-width: 768px) {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+        padding: 0;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &.container-full {
+    position: relative;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+}

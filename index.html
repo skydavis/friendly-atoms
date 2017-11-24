@@ -19,16 +19,19 @@
   <link rel="stylesheet" href="/dist/friendly-atoms.css">
   <link rel="stylesheet" href="/demo.css">
 </head>
-<body>
-  <div class="container">
+<body class="fa-cloudy-white">
+  <div class="container container-full center pad-top-xxlarge pad-bottom-xxlarge white">
     <div class="row">
       <div class="col"></div>
       <div class="col">
         <img src="/images/friendly-atoms-logo.svg" alt="FriendlyAtoms logo">
-        <h1>FriendlyAtoms: a CSS framework</h1>
-        <p>A friendly-vibes CSS framework designed for those whose eyes sparkle at the sight of a rounded typeface and saturated colors.</p>
+        <h1>FriendlyAtoms</h1>
+        <p>A friendly-vibes opensource CSS framework designed for those whose eyes sparkle at the sight of a rounded typeface and saturated colors.</p>
       </div>
+      <div class="col"></div>
     </div>
+  </div>
+  <div class="container">
     <div class="row push-top-medium push-top-medium">
       <div class="col">
         <h6 class="subheader">COLORS</h6>
@@ -52,11 +55,11 @@
           <h6 class="subheader">BUTTON</h6>
         <p>FriendlyAtoms buttons come in three sizes, large, default, and small</p>
         <div class="button-group">
-          <button class="btn solid">Button</button>
-          <button class="btn btn-fa-green solid">Button</button>
-          <button class="btn btn-fa-purple solid">Button</button>
-          <button class="btn btn-fa-pink solid">Button</button>
-          <button class="btn btn-fa-yellow solid">Button</button>
+          <button class="btn">Button</button>
+          <button class="btn btn-fa-green">Button</button>
+          <button class="btn btn-fa-purple">Button</button>
+          <button class="btn btn-fa-pink">Button</button>
+          <button class="btn btn-fa-yellow">Button</button>
         </div>
         <div class="button-group">
           <button class="btn rounded">Button</button>
@@ -66,7 +69,7 @@
           <button class="btn btn-fa-yellow rounded">Button</button>
         </div>
         <div class="button-group">
-            <button class="btn btn-fa-blue-outline">Outline Button</button>
+          <button class="btn btn-fa-blue-outline">Outline Button</button>
           <button class="btn btn-fa-green-outline">Outline Button</button>
           <button class="btn btn-fa-purple-outline">Outline Button</button>
           <button class="btn btn-fa-pink-outline">Outline Button</button>
@@ -74,46 +77,54 @@
         </div>
         <div class="button-group">
             <h6 class="subheader">BUTTON SIZES</h6>
-            <button class="btn outline btn-small">Button Small</button>
-            <button class="btn btn-green outline btn-large">Button Large</button>
+            <button class="btn btn-small">Button Small</button>
+            <button class="btn">Button Default</button>
+            <button class="btn btn-large">Button Large</button>
           </div>
       </div>
     </div>
     <div class="row push-top-medium">
       <div class="col">
           <h6 class="subheader">TYPOGRAPHY</h6>
-        <p>friendlyAtoms styles is based on em units, all converted to base 16, so 1rem is equal to to 16px. All headings are based on the fontface Nunito. The body copy is Muli. Both are available on Google fonts</p>
+        <p>FriendlyAtoms styles is based on em units, all converted to base 16, so 1rem is equal to to 16px. All headings are based on the fontface Nunito. All fonts used in this framework are available as Google fonts.</p>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <h1>H1 Heading</h1>
-        <h2>H2 Heading</h2>
-        <h3>H3 Heading</h3>
-        <h4>H4 Heading</h4>
-        <h5>H5 Heading</h5>
-        <h6>H6 Heading</h6>
+        <h1 class="push-bottom-small">H1 Heading</h1>
+        <h2 class="push-bottom-small">H2 Heading</h2>
+        <h3 class="push-bottom-small">H3 Heading</h3>
+        <h4 class="push-bottom-small">H4 Heading</h4>
+        <h5 class="push-bottom-small">H5 Heading</h5>
+        <h6 class="push-bottom-small">H6 Heading</h6>
       </div>
       <div class="col">
         <h6 class="subheader">SUBHEADER</h6>
-        <p>friendlyAtoms subheader text uses Muli typeface created by designer Vernon Adams. Muli is a minimalist Sans Serif. Muli is designed mainly for use as a display font but is useable as a text font too.</p>
+        <p>FriendlyAtoms subheader text uses Source® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.</p>
         <div class="push-top-large"></div>
         <h6 class="subheader">BODY TEXT</h6>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+        <p>FriendlyAtoms body text uses Muli. Muli is a minimalist Sans Serif. Muli is designed mainly for use as a display font but is useable as a text font too. Muli has been designed to be used freely across the internet by web browsers on desktop computers, laptops and mobile devices.</p>
       </div>
     </div>
     <div class="row push-top-medium">
       <div class="col">
-          <h6 class="subheader">GRID</h6>
-        <p>friendlyAtoms  comes with a minimal, 960px, 12 column grid, with intuitive class names</p>
-        <p>ADD GRID HERE</p>
+        <h6 class="subheader">GRID(WIP)</h6>
+        <p>FriendlyAtoms comes with a versatile simple grid. Inspired by Bootstrap and Kabir Shah, FriendlyAtoms's grid is contained by .container and .container-full (full-sized). Each .row is comprised as .col. .col is flexed so each can hold any number of columns depending on your needs.</p>
         <code></code>
       </div>
+    </div>
+    <div class="row push-top-small grid-row">
+      <div class="col fa-blue center light">.col</div>
+      <div class="col fa-blue center light">.col</div>
+      <div class="col fa-blue center light">.col</div>
+      <div class="col fa-blue center light">.col</div>
+      <div class="col fa-blue center light">.col</div>
+      <div class="col fa-blue center light">.col</div>
     </div>
     <div class="row push-top-medium">
       <div class="col">
           <h6 class="subheader">FORM INPUT</h6>
-        <p class="push-bottom-medium">friendlyAtoms  comes with a minimal, 960px, 12 column grid, with intuitive class names</p>
+        <p class="push-bottom-medium">Below is FriendlyAtoms form elements</p>
         <form action="">
           <label for="name">Name</label>
           <input type="text" placeholder="Jane Doe">
