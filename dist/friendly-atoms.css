@@ -244,25 +244,43 @@ p {
   color: #010101
 }
 p.bold {
-  font-weight: 600
+  font-weight: 700
 }
 .fa-blue {
   background-color: #1ba8f2
 }
+.fa-blue-c {
+  color: #1ba8f2
+}
 .fa-green {
   background-color: #50e3c2
+}
+.fa-green-c {
+  color: #50e3c2
 }
 .fa-purple {
   background-color: #6236da
 }
+.fa-purple-c {
+  color: #6236da
+}
 .fa-pink {
   background-color: #e350a9
+}
+.fa-pink-c {
+  color: #e350a9
 }
 .fa-yellow {
   background-color: #e3cb50
 }
+.fa-yellow-c {
+  color: #e3cb50
+}
 .fa-red {
   background-color: #e35050
+}
+.fa-red-c {
+  color: #e35050
 }
 .fa-cloudy-white {
   background-color: #f2f7f7
@@ -393,6 +411,59 @@ button.btn-fa-yellow-outline:hover {
   background-color: #e3cb50;
   background-color: #dcbe24;
   color: #fff
+}
+input,
+label,
+textarea {
+  font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+input[type=email],
+input[type=file],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select {
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #d2d2d2
+}
+input[type=email]:focus,
+input[type=file]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus,
+select:focus {
+  outline: 0;
+  border: 1px solid #1ba8f2;
+  transition: all .25s ease-in
+}
+label {
+  font-weight: 700;
+  color: #1f1f1f;
+  text-transform: uppercase
+}
+textarea {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #d2d2d2;
+  margin: 15px auto 15px;
+  padding: 15px;
+  resize: none
+}
+textarea:focus {
+  outline: 0;
+  border: 1px solid #1ba8f2;
+  transition: all .25s ease-in
 }
 .fa-blue-green-gradient {
   background: -moz-linear-gradient(330deg,#88f3e2 0,#1ba8f2 100%);

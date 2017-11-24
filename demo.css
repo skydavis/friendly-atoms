@@ -12,3 +12,8 @@
   background-color: rgba(221, 221, 221, 0.8);
   padding: 20px;
 }
+h1 span {
+  font-size: 1.1em;
+  font-weight: 300;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
