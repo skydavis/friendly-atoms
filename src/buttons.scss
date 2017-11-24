@@ -1,6 +1,104 @@
 button {
-  background-color: red;
-  &.outline {
-    border: 2px white solid;
+  &.btn {
+    align-self: center;
+    transition: all .25s ease-in;
+    padding: 1em 3em;
+    font-family: $muli;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    background-color: $fa-blue;
+    color: white;
+    &:hover {
+      background-color: darken($fa-blue, 10%);
+    }
+  }
+  &.rounded {
+    border-radius: 6em;
+  }
+  &.btn-block {
+    display: block;
+    width: 100%;
+  }
+  &.btn-large {
+    padding: $btn-large-size;
+  }
+  &.btn-small {
+    padding: $btn-small-size;
+  }
+  &.btn-fa-green {
+    background-color: $fa-green;
+    &:hover {
+      background-color: darken($fa-green, 10%);
+    }
+  }
+  &.btn-fa-purple {
+    background-color: $fa-purple;
+    &:hover {
+      background-color: darken($fa-purple, 10%);
+    }
+  }
+  &.btn-fa-pink {
+    background-color: $fa-pink;
+    &:hover {
+      background-color: darken($fa-pink, 10%);
+    }
+  }
+  &.btn-fa-yellow {
+    background-color: $fa-yellow;
+    &:hover {
+      background-color: darken($fa-yellow, 10%);
+    }
+  }
+  &.btn-fa-blue-outline {
+    background-color: transparent;
+    color: $fa-grey;
+    border: 2px solid $fa-blue;
+    &:hover {
+      background-color: $fa-blue;
+      background-color: darken($fa-blue, 10%);
+      color: white;
+    }
+  }
+  &.btn-fa-green-outline {
+    background-color: transparent;
+    color: $fa-grey;
+    border: 2px solid $fa-green;
+    &:hover {
+      background-color: $fa-green;
+      background-color: darken($fa-green, 10%);
+      color: white;
+    }
+  }
+  &.btn-fa-purple-outline {
+    background-color: transparent;
+    color: $fa-grey;
+    border: 2px solid $fa-purple;
+    &:hover {
+      background-color: $fa-purple;
+      background-color: darken($fa-purple, 10%);
+      color: white;
+    }
+  }
+  &.btn-fa-pink-outline {
+    background-color: transparent;
+    color: $fa-grey;
+    border: 2px solid $fa-pink;
+    &:hover {
+      background-color: $fa-pink;
+      background-color: darken($fa-pink, 10%);
+      color: white;
+    }
+  }
+  &.btn-fa-yellow-outline {
+    background-color: transparent;
+    color: $fa-grey;
+    border: 2px solid $fa-yellow;
+    &:hover {
+      background-color: $fa-yellow;
+      background-color: darken($fa-yellow, 10%);
+      color: white;
+    }
   }
 }

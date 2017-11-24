@@ -1,4 +1,4 @@
-// COLORS
+// THEME COLORS
 
 $fa-blue: #1BA8F2;
 $fa-green: #50E3C2;
@@ -6,3 +6,33 @@ $fa-purple: #6236DA;
 $fa-pink: #E350A9;
 $fa-yellow: #E3CB50;
 $fa-red: #E35050;
+$fa-grey: #838383;
+
+// COLORS
+
+$theme-colors: (
+  "fa-blue": $fa-blue,
+  "fa-green": $fa-green,
+  "fa-purple": $fa-purple,
+  "fa-pink": $fa-pink,
+  "fa-yellow": $fa-yellow,
+  "fa-red": $fa-red,
+);
+
+// TYPOGRAPHY
+$nunito: 'Nunito',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+$muli: 'Muli',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+$roboto: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
+// BUTTONS
+$btn-small-size: .8em 1em;
+$btn-large-size: 1.5em 3em;
+
+// PADDING
+$space-xsmall:  5px;
+$space-small:   10px;
+$space-smedium: 20px;
+$space-medium:  30px;
+$space-large:   40px;
+$space-xlarge:  50px;
+$space-xxlarge: 100px;
