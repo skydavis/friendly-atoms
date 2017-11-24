@@ -1,0 +1,37 @@
+$label-font-weight: 700;
+
+input, label, textarea {
+  font-family: $muli;
+}
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], input[type=url], select {
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid $fa-light-grey;
+  &:focus {
+    outline:0;
+    border: 1px solid $fa-blue;
+    transition: all .25s ease-in;
+  }
+}
+label {
+  font-weight: $label-font-weight;
+  color: $fa-dark-grey;
+  text-transform: uppercase;
+}
+textarea {
+  width: 100%;
+  background-color: white;
+  border: 1px solid $fa-light-grey;
+  margin: 15px auto 15px;;
+  padding: 15px;
+  resize: none;
+  &:focus {
+    outline:0;
+    border: 1px solid $fa-blue;
+    transition: all .25s ease-in;
+  }
+}
