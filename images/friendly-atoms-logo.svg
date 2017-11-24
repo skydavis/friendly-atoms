@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="113px" viewBox="0 0 133 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="70.0811081%" y1="31.1853923%" x2="34.229759%" y2="63.8272391%" id="linearGradient-1">
+            <stop stop-color="#F8C926" offset="0%"></stop>
+            <stop stop-color="#E97D40" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="58.0741196%" y1="20.2574509%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#704AA4" offset="0%"></stop>
+            <stop stop-color="#9C4FBB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="14.25785%" y1="32.2416356%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#1D77E3" offset="0%"></stop>
+            <stop stop-color="#486485" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="19.981243%" y1="17.8214172%" x2="50%" y2="70.6486632%" id="linearGradient-4">
+            <stop stop-color="#FE5759" offset="0%"></stop>
+            <stop stop-color="#EE579A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.8370084%" y1="26.3092672%" x2="90.7759955%" y2="78.4206719%" id="linearGradient-5">
+            <stop stop-color="#98E8A6" offset="0%"></stop>
+            <stop stop-color="#1DFDEF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="14.7574609%" y1="17.4509421%" x2="77.4799065%" y2="91.1829988%" id="linearGradient-6">
+            <stop stop-color="#BA377D" offset="0%"></stop>
+            <stop stop-color="#FAD3E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="82.5579101%" y1="81.3708252%" x2="15.6499571%" y2="18.6366175%" id="linearGradient-7">
+            <stop stop-color="#06D2FF" offset="0%"></stop>
+            <stop stop-color="#367FD7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.2303856%" y1="14.6858378%" x2="81.200133%" y2="85.4554521%" id="linearGradient-8">
+            <stop stop-color="#FE574D" offset="0%"></stop>
+            <stop stop-color="#F9CB25" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Friendly-Atoms-Web" transform="translate(-653.000000, -72.000000)">
+            <g id="Group" transform="translate(653.000000, 72.000000)">
+                <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="99.5" cy="34.5" r="33.5"></circle>
+                <path d="M99.0972259,49.0085593 C109.855588,49.3382237 118.312258,58.3225522 117.99115,69.0813801 C117.670042,79.8402081 108.69261,88.3041782 97.9337374,87.9916144 C87.1748649,87.6790506 78.7039259,78.7081751 79.0079333,67.9488503 C79.1595427,62.7728812 81.3614659,57.869236 85.1291207,54.3170712 C88.8967754,50.7649065 93.9214044,48.8553202 99.0972259,49.0085593 L99.0972259,49.0085593 Z" id="Ellipse_1_copy" fill="url(#linearGradient-2)"></path>
+                <circle id="Oval" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="24.5" cy="85.5" r="19.5"></circle>
+                <ellipse id="Oval" fill="url(#linearGradient-4)" fill-rule="nonzero" cx="38" cy="42.5" rx="38" ry="37.5"></ellipse>
+                <circle id="Oval" fill="url(#linearGradient-5)" fill-rule="nonzero" cx="75" cy="52" r="30"></circle>
+                <path d="M65.887421,55.012699 C81.8871719,55.5025527 94.4641538,68.8637257 93.9868519,84.8641657 C93.50955,100.864606 80.1584992,113.452301 64.158,112.987533 C48.1575008,112.522765 35.5595871,99.1813269 36.0118034,83.1801582 C36.2373857,75.4827499 39.5119737,68.1903485 45.1149653,62.9077116 C50.717957,57.6250747 58.1902216,54.785082 65.887421,55.012699 Z" id="Shape" fill="url(#linearGradient-6)"></path>
+                <ellipse id="Oval" fill="url(#linearGradient-7)" fill-rule="nonzero" cx="67" cy="21.5" rx="22" ry="21.5"></ellipse>
+                <ellipse id="Oval" fill="url(#linearGradient-8)" fill-rule="nonzero" cx="31.5" cy="84" rx="11.5" ry="11"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -36,3 +36,4 @@ Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Dav
 background-color: map-get($theme-colors, #{$color}) !important;
 }
 ```
+- [ ] Refactor gradients.scss into a mixin

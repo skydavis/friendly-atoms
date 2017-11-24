@@ -244,6 +244,36 @@ p {
 p.bold {
   font-weight: 600
 }
+.fa-blue {
+  background-color: #1ba8f2
+}
+.fa-green {
+  background-color: #50e3c2
+}
+.fa-purple {
+  background-color: #6236da
+}
+.fa-pink {
+  background-color: #e350a9
+}
+.fa-yellow {
+  background-color: #e3cb50
+}
+.fa-red {
+  background-color: #e35050
+}
+.fa-grey {
+  background-color: #838383
+}
+.fa-light-grey {
+  background-color: #d2d2d2
+}
+.fa-dark-grey {
+  background-color: #1f1f1f
+}
+.fa-black {
+  background-color: #010101
+}
 button:focus {
   outline: 0
 }
@@ -349,6 +379,38 @@ button.btn-fa-yellow-outline:hover {
   background-color: #e3cb50;
   background-color: #dcbe24;
   color: #fff
+}
+.fa-blue-green-gradient {
+  background: -moz-linear-gradient(330deg,#88f3e2 0,#1ba8f2 100%);
+  background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#88f3e2),color-stop(100%,#1ba8f2));
+  background: -webkit-linear-gradient(330deg,#88f3e2 0,#1ba8f2 100%);
+  background: -o-linear-gradient(330deg,#88f3e2 0,#1ba8f2 100%);
+  background: -ms-linear-gradient(330deg,#88f3e2 0,#1ba8f2 100%);
+  background: linear-gradient(120deg,#88f3e2 0,#1ba8f2 100%)
+}
+.fa-purple-pink-gradient {
+  background: -moz-linear-gradient(288deg,#9b66ef 0,#e350a9 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#9b66ef),color-stop(100%,#e350a9));
+  background: -webkit-linear-gradient(288deg,#9b66ef 0,#e350a9 100%);
+  background: -o-linear-gradient(288deg,#9b66ef 0,#e350a9 100%);
+  background: -ms-linear-gradient(288deg,#9b66ef 0,#e350a9 100%);
+  background: linear-gradient(162deg,#9b66ef 0,#e350a9 100%)
+}
+.fa-yellow-red-gradient {
+  background: -moz-linear-gradient(336deg,#ffe359 0,#e350a9 100%);
+  background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#ffe359),color-stop(100%,#e350a9));
+  background: -webkit-linear-gradient(336deg,#ffe359 0,#e350a9 100%);
+  background: -o-linear-gradient(336deg,#ffe359 0,#e350a9 100%);
+  background: -ms-linear-gradient(336deg,#ffe359 0,#e350a9 100%);
+  background: linear-gradient(114deg,#ffe359 0,#e350a9 100%)
+}
+.fa-red-blue-gradient {
+  background: -moz-linear-gradient(319deg,#fc466b 0,#3f5efb 100%);
+  background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#fc466b),color-stop(100%,#3f5efb));
+  background: -webkit-linear-gradient(319deg,#fc466b 0,#3f5efb 100%);
+  background: -o-linear-gradient(319deg,#fc466b 0,#3f5efb 100%);
+  background: -ms-linear-gradient(319deg,#fc466b 0,#3f5efb 100%);
+  background: linear-gradient(131deg,#fc466b 0,#3f5efb 100%)
 }
 .overflow-hidden {
   overflow: hidden!important
