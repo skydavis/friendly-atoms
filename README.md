@@ -1,6 +1,6 @@
 <p align="center"><img src="http://res.cloudinary.com/skydavis/image/upload/v1510628919/FriendlyAtomsLogo_small_azrv73.svg"/></p>
 <h1 align="center"> FriendlyAtoms</h1>
-<p align="center"> A friendly-vibes CSS framework designed for those whose eyes sparkle at the sight of a rounded typeface</p>
+<p align="center"> A friendly-vibes CSS framework designed for those whose eyes sparkle at the sight of a rounded typeface and saturated colors.</p>
 
 [![Build Status](https://travis-ci.org/skydavis/friendly-atoms.svg?branch=master)](https://travis-ci.org/skydavis/friendly-atoms)
 
@@ -26,3 +26,13 @@ Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Dav
 - [ ] Create Gradients
 - [ ] Create Cards
 - [ ] Upcoming: Navigations
+
+### FriendlyAtoms Refactor List
+
+- [ ] For buttons add scss map ie:
+```css
+@each $color in $theme-colors {
+.btn-#{$color} {
+background-color: map-get($theme-colors, #{$color}) !important;
+}
+```
