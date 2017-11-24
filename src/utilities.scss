@@ -22,6 +22,9 @@
 .push-bottom-xlarge {
   margin-bottom: $space-xlarge !important;
 }
+.push-bottom-xxlarge {
+  margin-bottom: $space-xxlarge !important;
+}
 .push-right-small {
   margin-right: $space-small !important;
 }
@@ -61,6 +64,9 @@
 .pad-bottom-large {
   padding-bottom: $space-large !important;
 }
+.pad-bottom-xxlarge {
+  padding-bottom: $space-xxlarge !important;
+}
 .pad-right-small {
   padding-right: $space-small !important;
 }
@@ -84,6 +90,12 @@
 }
 .pad-top-large {
   padding-top: $space-large !important;
+}
+.pad-top-large {
+  padding-top: $space-large !important;
+}
+.pad-top-xxlarge {
+  padding-top: $space-xxlarge !important;
 }
 .flush-top {
   margin-top: 0;

@@ -23,6 +23,7 @@ Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Dav
 - [ ] Create buttons
 - [ ] Create utilities for responsiveness, hidden states, and padding states
 - [ ] Create alerts
+- [ ] Create Forms
 - [ ] Create Gradients
 - [ ] Create Cards
 - [ ] Upcoming: Navigations
