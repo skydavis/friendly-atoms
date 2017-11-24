@@ -189,13 +189,69 @@ template {
   display: none
 }
 * {
-  font-size: 16px
+  font-size: 16px;
+  font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Nunito,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #010101
+}
+h1.bold,
+h2.bold,
+h3.bold,
+h4.bold,
+h5.bold,
+h6.bold {
+  font-weight: 700
+}
+h1 {
+  font-size: 3.5em
+}
+h2 {
+  font-size: 3em
+}
+h3 {
+  font-size: 2.5em
+}
+h4 {
+  font-size: 2em
+}
+h5 {
+  font-size: 1.5em
+}
+h6 {
+  font-size: 1em
+}
+h6.subheader {
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: .85em;
+  color: #d2d2d2;
+  font-weight: 600
+}
+p {
+  font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #010101
+}
+p.bold {
+  font-weight: 600
+}
+button:focus {
+  outline: 0
 }
 button.btn {
   align-self: center;
   transition: all .25s ease-in;
   padding: 1em 3em;
-  font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: .8em;
   cursor: pointer;
   border-radius: 0;
@@ -204,7 +260,8 @@ button.btn {
   color: #fff
 }
 button.btn:hover {
-  background-color: #0c8bce
+  background-color: #0c8bce;
+  outline: 0
 }
 button.rounded {
   border-radius: 6em
@@ -298,6 +355,9 @@ button.btn-fa-yellow-outline:hover {
 }
 .hidden {
   display: none!important
+}
+.center {
+  text-align: center!important
 }
 .push-bottom-small {
   margin-bottom: 10px!important
