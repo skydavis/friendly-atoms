@@ -45,7 +45,8 @@ gulp.task('watch', function() {
   gulp.watch('src/*.scss', ['scss']);
 });
 
-gulp.task('default', ['scss', 'webserver', 'watch']);
+gulp.task('default', ['build' ]);
+gulp.task('run', ['scss', 'webserver', 'watch']);
 
 gulp.task('build', function() {
   return gulp.src('src/styles.scss')

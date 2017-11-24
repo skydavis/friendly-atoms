@@ -7,6 +7,9 @@ $fa-pink: #E350A9;
 $fa-yellow: #E3CB50;
 $fa-red: #E35050;
 $fa-grey: #838383;
+$fa-dark-grey: #1f1f1f;
+$fa-black: #010101;
+$fa-light-grey: #D2D2D2;
 
 // COLORS
 
@@ -20,9 +23,9 @@ $theme-colors: (
 );
 
 // TYPOGRAPHY
-$nunito: 'Nunito',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
-$muli: 'Muli',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
-$roboto: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+$nunito: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+$muli: 'Muli','Helvetica Neue',Helvetica,Arial,sans-serif;
+$source: 'Source Sans Pro', sans-serif;
 
 // BUTTONS
 $btn-small-size: .8em 1em;

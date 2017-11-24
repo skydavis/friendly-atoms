@@ -1,4 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:700,900|Nunito:300,400,800|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600|Nunito:300,700|Source+Sans+Pro:600');
+
+$global-font-size: 16px;
+$global-header-weight: 300;
+$global-header-bold-weight: 700;
+$global-body-weight: 400;
+$global-body-bold-weight: 600;
+$header-font: $nunito;
+$body-font: $muli;
+$subheader-font: $source;
+
 * {
   font-size: 16px;
+  font-family: $body-font;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: $header-font;
+  font-weight: $global-header-weight;
+  margin-bottom: 15px;
+  color: $fa-black;
+  &.bold {
+    font-weight: $global-header-bold-weight;
+  }
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2.5em;
+}
+h4 {
+  font-size: 2em;
+}
+h5 {
+  font-size: 1.5em;
+}
+h6 {
+  font-size: 1em;
+  &.subheader {
+    font-family: $subheader-font;
+    font-size: 0.85em;
+    color: $fa-light-grey;
+    font-weight: 600;
+  }
+}
+p {
+  font-family: $body-font;
+  font-weight: $global-body-weight;
+  line-height: 1.5em;
+  color: $fa-black;
+  &.bold {
+    font-weight: $global-body-bold-weight;
+  }
 }

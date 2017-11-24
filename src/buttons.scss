@@ -1,4 +1,5 @@
 button {
+  &:focus {outline:0;}
   &.btn {
     align-self: center;
     transition: all .25s ease-in;
@@ -12,6 +13,7 @@ button {
     color: white;
     &:hover {
       background-color: darken($fa-blue, 10%);
+      outline: none;
     }
   }
   &.rounded {
