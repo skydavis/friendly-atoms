@@ -311,10 +311,10 @@ p.bold {
   color: #fff
 }
 .light {
-  color: #fff
+  color: #fff !important;
 }
 .dark {
-  color: #1f1f1f
+  color: #1f1f1f !important;
 }
 .alert {
   background-color: #1ba8f2;
