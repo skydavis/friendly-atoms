@@ -1,4 +1,7 @@
-.overflow-hidden {
+* {
+  scroll-behavior: smooth;
+}
+  .overflow-hidden {
   overflow: hidden !important;
 }
 .hidden {

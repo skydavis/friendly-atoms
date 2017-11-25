@@ -56,8 +56,8 @@
   color: white;
 }
 .light {
-  color: white;
+  color: white !important;
 }
 .dark {
-  color: $fa-dark-grey;
+  color: $fa-dark-grey !important;
 }

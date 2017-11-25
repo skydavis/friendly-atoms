@@ -26,6 +26,8 @@ Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Dav
 - [ ] Create Forms
 - [ ] Create Gradients
 - [ ] Create Cards
+- [ ] Setup Netlify
+- [ ] Setup download link
 
 ### FriendlyAtoms Next Up
 

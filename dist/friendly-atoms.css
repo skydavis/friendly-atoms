@@ -311,10 +311,10 @@ p.bold {
   color: #fff
 }
 .light {
-  color: #fff !important;
+  color: #fff!important
 }
 .dark {
-  color: #1f1f1f !important;
+  color: #1f1f1f!important
 }
 .alert {
   background-color: #1ba8f2;
@@ -653,6 +653,9 @@ textarea:focus {
     padding-right: 0;
     padding-left: 0
   }
+}
+* {
+  scroll-behavior: smooth
 }
 .overflow-hidden {
   overflow: hidden!important
