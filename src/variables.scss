@@ -40,3 +40,12 @@ $space-medium:  30px;
 $space-large:   40px;
 $space-xlarge:  50px;
 $space-xxlarge: 100px;
+
+//Shadow
+
+.shadow {
+  -webkit-box-shadow: -8px 12px 14px -5px rgba(0,0,0,0.13);
+  -moz-box-shadow: -8px 12px 14px -5px rgba(0,0,0,0.13);
+  box-shadow: -8px 12px 14px -5px rgba(0,0,0,0.13);
+  transition:all .5s ease;
+}
