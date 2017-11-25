@@ -300,6 +300,9 @@ p.bold {
 .white {
   background-color: #fff
 }
+.white-c {
+  color: #fff
+}
 .light {
   color: #fff
 }
@@ -535,8 +538,7 @@ textarea:focus {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 15px
+  width: 100%
 }
 .container .row:last-child {
   margin-bottom: 0
@@ -618,6 +620,9 @@ textarea:focus {
 }
 .push-top-xxlarge {
   margin-top: 100px!important
+}
+.pad {
+  padding: 25px
 }
 .pad-bottom-small {
   padding-bottom: 10px!important
