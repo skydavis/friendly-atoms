@@ -309,6 +309,28 @@ p.bold {
 .dark {
   color: #1f1f1f
 }
+.alert {
+  background-color: #1ba8f2;
+  padding: 15px;
+  margin: 15px;
+  border-radius: .125em;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 600;
+  transition: all .25s ease-in
+}
+.alert.block {
+  width: 100%
+}
+.alert.success {
+  background-color: #50e3c2
+}
+.alert.warning {
+  background-color: #e3cb50
+}
+.alert.danger {
+  background-color: #e35050
+}
 button:focus {
   outline: 0
 }
