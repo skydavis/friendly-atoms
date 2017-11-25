@@ -15,6 +15,12 @@ button {
       background-color: darken($fa-blue, 10%);
       outline: none;
     }
+    &.disabled {
+      cursor: not-allowed;
+      opacity: 0.9;
+      background-color: $fa-light-grey;
+      color: $fa-dark-grey;
+    }
   }
   &.rounded {
     border-radius: 6em;

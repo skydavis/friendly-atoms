@@ -16,6 +16,12 @@ input[type=text], input[type=password], input[type=email], input[type=search], i
     border: 1px solid $fa-blue;
     transition: all .25s ease-in;
   }
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    border: 1px solid $fa-light-grey;
+    color: $fa-light-grey;
+  }
 }
 label {
   font-weight: $label-font-weight;
