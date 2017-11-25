@@ -26,10 +26,16 @@ Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Dav
 - [ ] Create Forms
 - [ ] Create Gradients
 - [ ] Create Cards
-- [ ] Upcoming: Navigations
+
+### FriendlyAtoms Next Up
+
+- [ ] Navigation
+- [ ] List UL
+- [ ] Card Groups
 
 ### FriendlyAtoms Refactor List
 
+- [ ] Refactor Grid
 - [ ] For buttons add scss map ie:
 ```css
 @each $color in $theme-colors {

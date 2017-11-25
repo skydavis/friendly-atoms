@@ -1,0 +1,39 @@
+.card {
+  @extend .shadow;
+  border: 1px solid $fa-cloudy-white;
+  border-radius: 8px;
+  img {
+    width: 100%;
+  }
+  .card-body {
+    padding: 8px;
+    h5 {
+      font-weight: 300;
+      font-size: 1.75em;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+    .card-subheader {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  &.fa-blue-border{
+    border-bottom: thick solid $fa-blue;
+  }
+  &.fa-pink-border{
+    border-bottom: thick solid $fa-pink;
+  }
+  &.fa-purple-border{
+    border-bottom: thick solid $fa-purple;
+  }
+  &.fa-green-border{
+    border-bottom: thick solid $fa-green;
+  }
+  &.fa-yellow-border{
+    border-bottom: thick solid $fa-yellow;
+  }
+  &.fa-red-border{
+    border-bottom: thick solid $fa-red;
+  }
+}

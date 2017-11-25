@@ -188,6 +188,13 @@ template {
 [hidden] {
   display: none
 }
+.card,
+.shadow {
+  -webkit-box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
+  -moz-box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
+  box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
+  transition: all .5s ease
+}
 * {
   font-size: 16px;
   font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif
@@ -509,6 +516,44 @@ textarea:focus {
   outline: 0;
   border: 1px solid #1ba8f2;
   transition: all .25s ease-in
+}
+.card {
+  border: 1px solid #f2f7f7;
+  border-radius: 8px
+}
+.card img {
+  width: 100%
+}
+.card .card-body {
+  padding: 8px
+}
+.card .card-body h5 {
+  font-weight: 300;
+  font-size: 1.75em;
+  padding-top: 15px;
+  padding-bottom: 10px
+}
+.card .card-body .card-subheader {
+  font-weight: 700;
+  text-transform: uppercase
+}
+.card.fa-blue-border {
+  border-bottom: thick solid #1ba8f2
+}
+.card.fa-pink-border {
+  border-bottom: thick solid #e350a9
+}
+.card.fa-purple-border {
+  border-bottom: thick solid #6236da
+}
+.card.fa-green-border {
+  border-bottom: thick solid #50e3c2
+}
+.card.fa-yellow-border {
+  border-bottom: thick solid #e3cb50
+}
+.card.fa-red-border {
+  border-bottom: thick solid #e35050
 }
 .fa-blue-green-gradient {
   background: -moz-linear-gradient(330deg,#88f3e2 0,#1ba8f2 100%);
