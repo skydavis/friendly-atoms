@@ -624,8 +624,7 @@ textarea:focus {
 .container .row {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  width: 100%
+  justify-content: space-between
 }
 .container .row:last-child {
   margin-bottom: 0

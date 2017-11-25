@@ -34,6 +34,7 @@ Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Dav
 - [ ] Navigation
 - [ ] List UL
 - [ ] Card Groups
+- [ ] Tabs
 
 ### FriendlyAtoms Refactor List
 
