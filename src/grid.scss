@@ -25,6 +25,8 @@
   }
   .row {
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-flow: row wrap;
     justify-content: space-between;
     &:last-child {

@@ -8,9 +8,20 @@
   margin-right: 15px;
   display: inline-block;
 }
+.color-block {
+  display: inline-flex;
+  display: -ms-inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+}
+
 .square {
   height: 15px;
   width: 15px;
+}
+.color-name {
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .row.grid-row {
   background-color: rgba(221, 221, 221, 0.8);
