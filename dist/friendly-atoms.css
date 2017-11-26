@@ -587,6 +587,29 @@ textarea:focus {
   background: -ms-linear-gradient(319deg,#fc466b 0,#3f5efb 100%);
   background: linear-gradient(131deg,#fc466b 0,#3f5efb 100%)
 }
+pre {
+  margin: 0 10px
+}
+code {
+  display: block;
+  padding: 10px 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #e7e7e7
+}
+code[class*=language] {
+  height: auto!important;
+  background-color: transparent;
+  position: inherit
+}
+pre[class*=language-] > code {
+  border-left: 10px solid #50e3c2!important;
+  box-shadow: 0 0 0 0 #50e3c2,0 0 0 1px #dfdfdf!important
+}
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  margin-top: -15px!important
+}
 .container {
   width: 100%;
   position: relative;

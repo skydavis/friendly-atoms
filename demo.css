@@ -8,6 +8,10 @@
   margin-right: 15px;
   display: inline-block;
 }
+.square {
+  height: 15px;
+  width: 15px;
+}
 .row.grid-row {
   background-color: rgba(221, 221, 221, 0.8);
   padding: 20px;

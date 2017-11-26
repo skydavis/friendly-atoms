@@ -18,6 +18,7 @@
   <!-- Styles -->
   <link rel="stylesheet" href="/dist/friendly-atoms.css">
   <link rel="stylesheet" href="/demo.css">
+  <link rel="stylesheet" href="/prism/prism.css">
 </head>
 <body class="fa-cloudy-white">
   <div class="container container-full demo-header center pad-top-xxlarge pad-bottom-xxlarge white">
@@ -35,7 +36,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="row push-top-medium push-top-medium white pad">
+    <div class="row push-top-medium white pad">
       <div class="col" id="docs">
         <h6 class="subheader">COLORS</h6>
         <div class="fa-blue circle"></div>
@@ -51,6 +52,12 @@
         <div class="fa-purple-pink-gradient circle"></div>
         <div class="fa-yellow-red-gradient circle"></div>
         <div class="fa-red-blue-gradient circle"></div>
+      </div>
+    </div>
+    <div class="row white pad">
+      <div class="col">
+        <h6>Color Class</h6>
+        div.square
       </div>
     </div>
     <div class="row push-top-medium push-top-medium white pad">
@@ -113,7 +120,29 @@
       <div class="col">
         <h6 class="subheader">GRID(WIP)</h6>
         <p>FriendlyAtoms comes with a versatile simple grid. Inspired by Bootstrap, FriendlyAtoms's grid is contained by .container and .container-full (full-sized). Each .row is comprised as .col. .col is flexed so each can hold any number of columns depending on your needs.</p>
-        <code></code>
+        <h4 class="fa-purple-c">Markup</h4>
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="col">
+                <h6 class="subheader">COLORS</h6>
+                <div class="fa-blue circle"></div>
+                <div class="fa-green circle"></div>
+                <div class="fa-purple circle"></div>
+                <div class="fa-pink circle"></div>
+                <div class="fa-yellow circle"></div>
+                <div class="fa-red circle"></div>
+              </div>
+              <div class="col">
+                <h6 class="subheader">GRADIENTS</h6>
+                <div class="fa-blue-green-gradient circle"></div>
+                <div class="fa-purple-pink-gradient circle"></div>
+                <div class="fa-yellow-red-gradient circle"></div>
+                <div class="fa-red-blue-gradient circle"></div>
+              </div>
+            </script>
+          </code>
+        </pre>
       </div>
     </div>
     <div class="row white pad">
@@ -203,5 +232,6 @@
       </div>
     </div>
   </div> <!-- ends container -->
+  <script src="/prism/prism.js"></script>
 </body>
 </html>
