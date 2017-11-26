@@ -195,6 +195,9 @@ template {
   box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
   transition: all .5s ease
 }
+hr {
+  border: 1px solid #f2f7f7
+}
 * {
   font-size: 16px;
   font-family: Muli,"Helvetica Neue",Helvetica,Arial,sans-serif
@@ -292,17 +295,32 @@ p.bold {
 .fa-cloudy-white {
   background-color: #f2f7f7
 }
+.fa-cloudy-white-c {
+  color: #f2f7f7
+}
 .fa-grey {
   background-color: #838383
+}
+.fa-grey-c {
+  color: #838383
 }
 .fa-light-grey {
   background-color: #d2d2d2
 }
+.fa-light-grey-c {
+  color: #d2d2d2
+}
 .fa-dark-grey {
-  background-color: #1f1f1f
+  background-color: #212121
+}
+.fa-dark-grey-c {
+  color: #212121
 }
 .fa-black {
   background-color: #010101
+}
+.fa-black-c {
+  color: #010101
 }
 .white {
   background-color: #fff
@@ -314,7 +332,7 @@ p.bold {
   color: #fff!important
 }
 .dark {
-  color: #1f1f1f!important
+  color: #212121!important
 }
 .alert {
   background-color: #1ba8f2;
@@ -361,7 +379,7 @@ button.btn.disabled {
   cursor: not-allowed;
   opacity: .9;
   background-color: #d2d2d2;
-  color: #1f1f1f
+  color: #212121
 }
 button.rounded {
   border-radius: 6em
@@ -501,7 +519,7 @@ select.disabled {
 }
 label {
   font-weight: 700;
-  color: #1f1f1f;
+  color: #212121;
   text-transform: uppercase
 }
 textarea {
@@ -587,6 +605,15 @@ textarea:focus {
   background: -ms-linear-gradient(319deg,#fc466b 0,#3f5efb 100%);
   background: linear-gradient(131deg,#fc466b 0,#3f5efb 100%)
 }
+pre {
+  margin: 0 10px
+}
+code {
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #e7e7e7
+}
 .container {
   width: 100%;
   position: relative;
@@ -623,6 +650,8 @@ textarea:focus {
 }
 .container .row {
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   flex-flow: row wrap;
   justify-content: space-between
 }

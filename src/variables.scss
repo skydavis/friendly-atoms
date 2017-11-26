@@ -8,7 +8,7 @@ $fa-yellow: #E3CB50;
 $fa-red: #E35050;
 $fa-cloudy-white: #F2F7F7;
 $fa-grey: #838383;
-$fa-dark-grey: #1f1f1f;
+$fa-dark-grey: #212121;
 $fa-black: #010101;
 $fa-light-grey: #D2D2D2;
 
@@ -48,4 +48,9 @@ $space-xxlarge: 100px;
   -moz-box-shadow: -8px 12px 14px -5px rgba(0,0,0,0.13);
   box-shadow: -8px 12px 14px -5px rgba(0,0,0,0.13);
   transition:all .5s ease;
+}
+
+// HR
+hr {
+  border: 1px solid $fa-cloudy-white;
 }

@@ -18,6 +18,7 @@
   <!-- Styles -->
   <link rel="stylesheet" href="/dist/friendly-atoms.css">
   <link rel="stylesheet" href="/demo.css">
+  <link rel="stylesheet" href="/prism/prism.css">
 </head>
 <body class="fa-cloudy-white">
   <div class="container container-full demo-header center pad-top-xxlarge pad-bottom-xxlarge white">
@@ -35,7 +36,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="row push-top-medium push-top-medium white pad">
+    <div class="row push-top-medium white pad">
       <div class="col" id="docs">
         <h6 class="subheader">COLORS</h6>
         <div class="fa-blue circle"></div>
@@ -53,19 +54,103 @@
         <div class="fa-red-blue-gradient circle"></div>
       </div>
     </div>
+    <div class="row white pad">
+      <div class="col">
+          <h6 class="subheader">COLOR CLASSNAMES</h6>
+        <div class="color-block">
+          <div class="square fa-blue"></div>
+          <p class="color-name"><strong class="fa-blue-c">.fa-blue</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-green"></div>
+          <p class="color-name"><strong class="fa-green-c">.fa-green</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-purple"></div>
+          <p class="color-name"><strong class="fa-purple-c">.fa-purple</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-pink"></div>
+          <p class="color-name"><strong class="fa-pink-c">.fa-pink</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-yellow"></div>
+          <p class="color-name"><strong class="fa-yellow-c">.fa-yellow</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-red"></div>
+          <p class="color-name"><strong class="fa-red-c">.fa-red</strong></p>
+        </div>
+        <br><hr class="push-bottom-medium">
+        <h6 class="subheader">COLOR CLASSNAMES | WHITES AND GREYS</h6>
+        <div class="color-block">
+          <div class="square fa-cloudy-white"></div>
+          <p class="color-name"><strong class="fa-light-grey-c">.fa-cloudy-white</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-light-grey"></div>
+          <p class="color-name">
+            <strong class="fa-light-grey-c">.fa-light-grey</strong>
+          </p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-grey"></div>
+          <p class="color-name"><strong class="fa-grey-c">.fa-grey</strong></p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-dark-grey"></div>
+          <p class="color-name">
+            <strong class="fa-dark-grey-c">.fa-dark-grey</strong>
+          </p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-black"></div>
+          <p class="color-name">
+            <strong class="fa-black-c">.fa-black</strong>
+          </p>
+        </div>
+        <br>
+        <hr class="push-bottom-medium">
+        <h6 class="subheader">COLOR CLASSNAMES | GRADIENTS</h6>
+        <div class="color-block">
+          <div class="square fa-blue-green-gradient"></div>
+          <p class="color-name">
+            <strong class="fa-blue-c">.fa-blue-green-gradient</strong>
+          </p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-purple-pink-gradient"></div>
+          <p class="color-name">
+            <strong class="fa-purple-c">.fa-purple-pink-gradient</strong>
+          </p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-yellow-red-gradient"></div>
+          <p class="color-name">
+            <strong class="fa-yellow-c">.fa-yellow-red-gradient</strong>
+          </p>
+        </div>
+        <div class="color-block">
+          <div class="square fa-red-blue-gradient"></div>
+          <p class="color-name">
+            <strong class="fa-pink-c">.fa-red-blue-gradient</strong>
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="row push-top-medium push-top-medium white pad">
       <div class="col">
           <h6 class="subheader">BUTTON</h6>
-        <p>FriendlyAtoms buttons come in three sizes, large, default, and small</p>
+        <p>FriendlyAtoms buttons come in three sizes (default, small, and large) and three types (default/solid, outline, and rounded)</p>
         <div class="button-group">
-          <button class="btn">Button</button>
+          <button class="btn">Default</button>
           <button class="btn btn-fa-green">Button</button>
           <button class="btn btn-fa-purple">Button</button>
           <button class="btn btn-fa-pink">Button</button>
           <button class="btn btn-fa-yellow">Button</button>
         </div>
         <div class="button-group">
-          <button class="btn rounded">Button</button>
+          <button class="btn rounded">Default</button>
           <button class="btn btn-fa-green rounded">Button</button>
           <button class="btn btn-fa-purple rounded">Button</button>
           <button class="btn btn-fa-pink rounded">Button</button>
@@ -84,6 +169,39 @@
             <button class="btn">Button Default</button>
             <button class="btn btn-large">Button Large</button>
           </div>
+          <pre>
+            <code class="line-numbers language-markup">
+              <script type="language-markup">
+                <div class="button-group">
+                  <button class="btn">Default</button>
+                  <button class="btn btn-fa-green">Button</button>
+                  <button class="btn btn-fa-purple">Button</button>
+                  <button class="btn btn-fa-pink">Button</button>
+                  <button class="btn btn-fa-yellow">Button</button>
+                </div>
+                <div class="button-group">
+                  <button class="btn rounded">Button</button>
+                  <button class="btn btn-fa-green rounded">Button</button>
+                  <button class="btn btn-fa-purple rounded">Button</button>
+                  <button class="btn btn-fa-pink rounded">Button</button>
+                  <button class="btn btn-fa-yellow rounded">Button</button>
+                </div>
+                <div class="button-group">
+                  <button class="btn btn-fa-blue-outline">Outlined</button>
+                  <button class="btn btn-fa-green-outline">Outlined</button>
+                  <button class="btn btn-fa-purple-outline">Outlined</button>
+                  <button class="btn btn-fa-pink-outline">Outlined</button>
+                  <button class="btn btn-fa-yellow-outline">Outlined</button>
+                </div>
+                <div class="button-group">
+                  <h6 class="subheader">BUTTON SIZES</h6>
+                  <button class="btn btn-small">Button Small</button>
+                  <button class="btn">Button Default</button>
+                  <button class="btn btn-large">Button Large</button>
+                </div>
+              </script>
+            </code>
+          </pre>
       </div>
     </div>
     <div class="row push-top-medium push-top-medium white pad">
@@ -94,26 +212,45 @@
     </div>
     <div class="row white pad">
       <div class="col">
+        <h6 class="subheader">HEADINGS</h6>
         <h1 class="push-bottom-small">H1 Heading</h1>
         <h2 class="push-bottom-small">H2 Heading</h2>
         <h3 class="push-bottom-small">H3 Heading</h3>
         <h4 class="push-bottom-small">H4 Heading</h4>
         <h5 class="push-bottom-small">H5 Heading</h5>
         <h6 class="push-bottom-small">H6 Heading</h6>
+        <h6 class="push-bottom-small bold">Headers can have .bold attached.</h6>
       </div>
       <div class="col">
-        <h6 class="subheader">SUBHEADER</h6>
+        <h6 class="subheader">SUBHEADER + BODY TEXT</h6>
         <p>FriendlyAtoms subheader text uses Source® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.</p>
-        <div class="push-top-large"></div>
-        <h6 class="subheader">BODY TEXT</h6>
         <p>FriendlyAtoms body text uses Muli. Muli is a minimalist Sans Serif. Muli is designed mainly for use as a display font but is useable as a text font too. Muli has been designed to be used freely across the internet by web browsers on desktop computers, laptops and mobile devices.</p>
+      </div>
+    </div>
+    <div class="row white">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="language-markup">
+              <div class="col">
+                <h6 class="subheader">HEADINGS</h6>
+                <h1>H1 Heading</h1>
+                <h2>H2 Heading</h2>
+                <h3>H3 Heading</h3>
+                <h4>H4 Heading</h4>
+                <h5>H5 Heading</h5>
+                <h6>H6 Heading</h6>
+                <h6 class="bold">Headers can have .bold attached.</h6>
+              </div>
+            </script>
+          </code>
+        </pre>
       </div>
     </div>
     <div class="row push-top-medium push-top-medium white pad">
       <div class="col">
         <h6 class="subheader">GRID(WIP)</h6>
         <p>FriendlyAtoms comes with a versatile simple grid. Inspired by Bootstrap, FriendlyAtoms's grid is contained by .container and .container-full (full-sized). Each .row is comprised as .col. .col is flexed so each can hold any number of columns depending on your needs.</p>
-        <code></code>
       </div>
     </div>
     <div class="row white pad">
@@ -123,6 +260,24 @@
       <div class="col fa-blue center light">.col</div>
       <div class="col fa-blue center light">.col</div>
       <div class="col fa-blue center light">.col</div>
+    </div>
+    <div class="row white pad">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="row">
+                <div class="col fa-blue center light">.col</div>
+                <div class="col fa-blue center light">.col</div>
+                <div class="col fa-blue center light">.col</div>
+                <div class="col fa-blue center light">.col</div>
+                <div class="col fa-blue center light">.col</div>
+                <div class="col fa-blue center light">.col</div>
+              </div>
+            </script>
+          </code>
+        </pre>
+      </div>
     </div>
     <div class="row push-top-medium push-top-medium white pad">
       <div class="col">
@@ -135,15 +290,58 @@
           <input type="email" placeholder="jane@email.com">
           <label for="message">Message</label>
           <textarea name="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+          <button class="btn">Send</button>
         </form>
       </div>
       <div class="col"></div>
     </div>
-    <div class="row push-top-medium push-top-medium white pad">
+    <div class="row white pad">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="row">
+                <div class="col">
+                  <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Jane Doe">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="jane@email.com">
+                    <label for="message">Message</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+                    <button class="btn">Send</button>
+                  </form>
+                </div>
+                <div class="col"></div>
+              </div>
+            </script>
+          </code>
+        </pre>
+      </div>
+    </div>
+    <div class="row push-top-medium white pad">
       <div class="col">
         <h6 class="subheader">DISABLED STATES</h6>
         <button class="btn disabled">Button</button>
         <input type="text" placeholder="Jane Doe" class="disabled">
+      </div>
+    </div>
+    <div class="row white pad">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="row">
+                <div class="col">
+                  <h6 class="subheader">DISABLED STATES</h6>
+                  <button class="btn disabled">Button</button>
+                  <input type="text" placeholder="Jane Doe" class="disabled">
+                </div>
+                <div class="col"></div>
+              </div>
+            </script>
+          </code>
+        </pre>
       </div>
     </div>
     <div class="row push-top-medium push-top-medium white pad">
@@ -153,6 +351,25 @@
         <div class="alert success"> SUCCESS: This is a success alert.</div>
         <div class="alert warning"> WARNING: This is a warning alert.</div>
         <div class="alert danger"> DANGER: This is a danger alert.</div>
+      </div>
+    </div>
+    <div class="row white pad">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="row">
+                <div class="col">
+                <h6 class="subheader">ALERTS</h6>
+                <div class="alert"> DEFAULT: This is a default alert.</div>
+                <div class="alert success"> SUCCESS: This is a success alert.</div>
+                <div class="alert warning"> WARNING: This is a warning alert.</div>
+                <div class="alert danger"> DANGER: This is a danger alert.</div>
+                </div>
+              </div>
+            </script>
+          </code>
+        </pre>
       </div>
     </div>
     <div class="row push-top-medium white pad">
@@ -194,7 +411,51 @@
         </div>
       </div>
     </div>
-    <div class="row push-top-medium push-bottom-xxlarge white pad">
+    <div class="row white pad">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="row">
+                <div class="col">
+                  <div class="card fa-blue-border">
+                    <img src="https://placeimg.com/640/480/nature">
+                    <div class="card-body">
+                      <h5>My fun Friendly Atoms card</h5>
+                      <h6 class="card-subheader fa-blue-c">Great looking subtitle</h6>
+                      <p>This is an example of a card with an image and text. Cards can be used without images and with text, links, and buttons.</p>
+                      <button class="btn btn-fa-blue-outline">Link</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card fa-purple-border">
+                    <img src="https://placeimg.com/640/480/animals">
+                    <div class="card-body">
+                      <h5>My fun Friendly Atoms card</h5>
+                      <h6 class="card-subheader fa-purple-c">Great looking subtitle</h6>
+                      <p>This is an example of a card with an image and text. Cards can be used without images and with text, links, and buttons.</p>
+                      <button class="btn btn-fa-purple-outline">Link</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card fa-pink-border">
+                    <div class="card-body">
+                      <h5>My fun Friendly Atoms card</h5>
+                      <h6 class="card-subheader fa-pink-c">Great looking subtitle</h6>
+                      <p>This is an example of a card without an image. Cards can be used without images and with text, links, and buttons.</p>
+                      <button class="btn btn-fa-pink-outline">Link</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </script>
+          </code>
+        </pre>
+      </div>
+    </div>
+    <div class="row push-top-medium white pad">
       <div class="col">
         <h6 class="subheader">UTILITIES</h6>
         <h6 class="fa-grey-c">Light / Dark Class</h6>
@@ -202,6 +463,26 @@
         <button class="btn dark">Button</button>
       </div>
     </div>
+    <div class="row white pad push-bottom-xlarge">
+      <div class="col">
+        <pre>
+          <code class="line-numbers language-markup">
+            <script type="prism-html-markup">
+              <div class="row">
+                <div class="col">
+                  <h6 class="subheader">UTILITIES</h6>
+                  <h6 class="fa-grey-c">Light / Dark Class</h6>
+                  <button class="btn light">Button</button>
+                  <button class="btn dark">Button</button>
+                </div>
+              </div>
+            </script>
+          </code>
+        </pre>
+      </div>
+    </div>
   </div> <!-- ends container -->
+  <h6 class="subheader center push-bottom-xlarge">Made with 💖 by Sky Davis</h6>
+  <script src="/prism/prism.js"></script>
 </body>
 </html>
