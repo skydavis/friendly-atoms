@@ -14,7 +14,9 @@
   display: -webkit-inline-flex;
   align-items: center;
 }
-
+.method {
+ color: #1BA8F2;
+}
 .square {
   height: 15px;
   width: 15px;
@@ -36,4 +38,49 @@ h1 span {
   background-image: url("/images/pat.png");
   background-repeat: repeat;
   background-attachment: fixed;
+}
+code[class*="language"] {
+  height: auto !important;
+  background-color: transparent;
+  position: inherit;
+}
+pre[class*="language-"]>code {
+  border-left: 10px solid #D2D2D2 !important;
+  box-shadow: none !important;
+  background-color: #f2f7f7 !important;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px;
+  background-image: url("/images/pat.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding-left: 25px;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    line-height: 1.4 !important;
+    color: #434343 !important;
+    text-shadow: none !important;
+    white-space: pre-wrap !important;
+}
+pre[class*="language-"] {
+  padding: 0 !important;
+}
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background-color: transparent !important;
+}
+.token.atrule, .token.attr-value, .token.function {
+  color:#E350A9 !important;
+}
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted {
+  color: #1BA8F2 !important;
+}
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+    color:#E3CB50 !important;
+}
+.token.punctuation {
+  color: #1BA8F2 !important;
+}
+.token.tag:first-of-type {
+  left: -50px;
 }
