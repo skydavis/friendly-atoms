@@ -190,9 +190,9 @@ template {
 }
 .card,
 .shadow {
-  -webkit-box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
-  -moz-box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
-  box-shadow: -8px 12px 14px -5px rgba(0,0,0,.13);
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
   transition: all .5s ease
 }
 hr {
