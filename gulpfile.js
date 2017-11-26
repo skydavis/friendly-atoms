@@ -2,7 +2,6 @@ let gulp = require('gulp');
 const pkg = require('./package.json');
 
 const minifyCSS = require('gulp-clean-css');
-const concat = require('gulp-concat');
 const connect = require('gulp-connect');
 const header = require('gulp-header');
 const size = require('gulp-size');
@@ -16,7 +15,7 @@ const comment = `
    * Copyright 2017-2018 Sky Davis
    * Released under MIT License
    * http://getfriendlyatomscss.com
-   */
+   */\r\n
 `;
 
 gulp.task('webserver', function() {
@@ -25,9 +24,14 @@ gulp.task('webserver', function() {
   });
 });
 
-gulp.task('minify-css', () => {
+gulp.task('minify-css', function() {
   gulp.src('dist/friendly-atoms.css')
     .pipe(minifyCSS())
+    .pipe(header(comment))
+    .pipe(size())
+    .pipe(size({
+      gzip: true
+    }))
     .pipe(rename('friendly-atoms.min.css'))
     .pipe(gulp.dest('dist'));
 });
@@ -47,11 +51,4 @@ gulp.task('watch', function() {
 
 gulp.task('default', ['build' ]);
 gulp.task('run', ['scss', 'webserver', 'watch']);
-
-gulp.task('build', function() {
-  return gulp.src('src/styles.scss')
-  .pipe(scss())
-  .pipe(header(comment + "\r\n"))
-  .pipe(size())
-  .pipe(minifyCSS());
-});
+gulp.task('build', ['scss', 'minify-css']);
