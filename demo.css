@@ -17,3 +17,8 @@ h1 span {
   font-weight: 300;
   font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+.demo-header {
+  background-image: url("/images/pat.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
