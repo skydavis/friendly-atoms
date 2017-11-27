@@ -14,7 +14,7 @@ const comment = `
    * Friendly Atoms v${pkg.version}
    * Copyright 2017-2018 Sky Davis
    * Released under MIT License
-   * http://getfriendlyatomscss.com
+   * https://getfriendlyatoms.com
    */\r\n
 `;
 
