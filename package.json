@@ -1,6 +1,6 @@
 {
   "name": "friendly-atoms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "filename": "friendly-atoms.min.css",
   "description": "A friendly-vibes, lightweight, responsive CSS framework",
   "main": "./dist/friendly-vibes.min.css",
