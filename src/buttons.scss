@@ -11,6 +11,7 @@ button {
     border: none;
     background-color: $fa-blue;
     color: white;
+    margin: 5px 0 5px;
     &:hover {
       background-color: darken($fa-blue, 10%);
       outline: none;
