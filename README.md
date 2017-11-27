@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/skydavis/friendly-atoms.svg?branch=master)](https://travis-ci.org/skydavis/friendly-atoms)
 
 ## [Documentation]
+See documentation here: [here](https://getfriendlyatoms.com/#docs)
 
 ## Find a bug?
 
