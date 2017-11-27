@@ -14,31 +14,16 @@ Submit it in the [issues](https://github.com/skydavis/friendly-atoms/issues)
 
 Licensed under the [MIT License](https://skydavis.github.io/license) by [Sky Davis](http://mynameisskydavis.com)
 
-
-### FriendlyAtoms To-Do List
-
-- [ ] Design + Create index which holds all elements
-- [ ] Create Typography
-- [ ] Create grid
-- [ ] Create buttons
-- [ ] Create utilities for responsiveness, hidden states, and padding states
-- [ ] Create alerts
-- [ ] Create Forms
-- [ ] Create Gradients
-- [ ] Create Cards
-- [ ] Setup Netlify
-- [ ] Setup download link
-
 ### FriendlyAtoms Next Up
 
 - [ ] Navigation
 - [ ] List UL
 - [ ] Card Groups
 - [ ] Tabs
+- [ ] Grid Update
 
 ### FriendlyAtoms Refactor List
 
-- [ ] Refactor Grid
 - [ ] For buttons add scss map ie:
 ```css
 @each $color in $theme-colors {
